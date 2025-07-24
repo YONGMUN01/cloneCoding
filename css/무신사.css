@@ -1,0 +1,43 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+
+.header-div{
+  background-color : black;
+  height : 50px;
+  color : white;
+}
+
+.header-ul{
+  display : flex;
+}
+
+.header-ul-li-totalList{
+  background-color : beige;
+  margin : 10px;
+  height : 30px;
+  width : 30px;
+}
+
+.header-ul-li-div{
+  background-color : yellow;
+  margin : 10px;
+  height : 30px;
+  text-align : center;
+  line-height : 30px;
+}
+
+#header-ul-li{
+  float : right;
+}
+
+.header-ul-li-div2{
+  background-color : yellow;
+  margin : 10px;
+  height : 30px;
+  text-align : center;
+  line-height : 30px;
+}
+
+

@@ -4,56 +4,56 @@
 }
 
 nav{
-  background-color : black;
+  background-color : #1A1B1F;
   display : flex;
+  justify-content : space-between;
 }
 
-.header-div{
-  background-color : black;
+.header-left{
+  background-color : #1A1B1F;
   height : 50px;
   color : white;
 }
 
-.header-ul{
+.header-left ul{
   display : flex;
 }
 
-.header-ul-li-totalList{
+.header-menubar{
   background-color : beige;
   margin : 10px;
   height : 30px;
   width : 30px;
 }
 
-.header-ul-li-totalList img{
+.header-menubar img{
   height : 30px;
   width : 30px;
 }
 
-.header-ul-li{
+.header-li{
   list-style-type : none;
 }
 
-.header-ul-li-div{
-  background-color : yellow;
+.header-li-div{
   margin : 10px;
   height : 30px;
   text-align : center;
   line-height : 30px;
 }
 
-#header-ul-li{
-  float : right;
+.header-a1{
+  text-decoration : none;
+  margin : 5px;
+  color : white;
 }
 
-.header-ul-li-div2{
-  background-color : yellow;
-  margin : 10px;
-  height : 30px;
-  text-align : center;
-  line-height : 30px;
+.header-a2{
+  text-decoration : none;
+  margin : 5px;
+  color : white;
+  font-size : 13px;
 }
 
-.example{
-  float : right;
-}
+
+

@@ -4,7 +4,8 @@
 }
 
 
-html, body{
+html,
+body {
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@ main,
 footer {
   border: 1px solid gray;
   margin: 0px auto;
-} 
+}
 
 /* header 시작 */
 header {
@@ -28,7 +29,7 @@ header {
   background-color: #1A1B1F;
   height: 50px;
   width: 1423px;
-  position:fixed;
+  position: fixed;
   z-index: 1000;
 }
 
@@ -39,97 +40,97 @@ header {
   justify-content: space-between;
 }
 
-#menubar-left{
-  position:relative;
+#menubar-left {
+  position: relative;
   top: -5px;
   left: -30px;
 }
 
-.top-ul{
+.top-ul {
   display: flex;
   list-style-type: none;
 }
 
-.menubar{
+.menubar {
   margin: 0px 5px;
 }
 
-#menubar-img{
+#menubar-img {
   height: 30px;
   width: 30px;
 }
 
-#menubar-img img{
+#menubar-img img {
   height: 30px;
   width: 30px;
 }
 
-.menubar-div{
+.menubar-div {
   text-align: center;
 }
 
-.menubar-left-list{
+.menubar-left-list {
   margin: 5px;
   text-decoration: none;
   color: lightgray;
   font-size: large;
 }
 
-#menubar-right{
+#menubar-right {
   margin: 0px 10px;
 }
 
-#menubar-right ul{
+#menubar-right ul {
   list-style-type: none;
 }
 
-.menubar-right-list{
-  margin: 3px; 
+.menubar-right-list {
+  margin: 3px;
   text-decoration: none;
   color: lightgray;
   font-size: small;
 }
 
 /* header-middle 시작 */
-#header-middle{
+#header-middle {
   margin: 50px 0px 0px;
   height: 120px;
   width: 1423px;
 }
 
-#middle-top{
+#middle-top {
   height: 30px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 
-#middle-musinsa{
+#middle-musinsa {
   margin: 3px;
 }
 
-#middle-musinsa a{
+#middle-musinsa a {
   text-decoration: none;
   font-size: large;
   color: lightgray;
 }
 
-#middle-ring a img{
+#middle-ring a img {
   height: 25px;
   width: 25px;
 }
 
-#middle-input{
+#middle-input {
   height: 35px;
   padding: 10px;
 }
 
-#middle-input form label input{
+#middle-input form label input {
   width: 1370px;
   height: 30px;
 }
 
-#main-top{
+#main-top {
   background-color: #1A1B1F;
   height: 40px;
   position: sticky;
@@ -139,7 +140,7 @@ header {
 
 
 
-.top-list-genre{
+.top-list-genre {
   margin: 0 10px;
   text-decoration: none;
   color: lightgray;
@@ -151,53 +152,51 @@ header {
 /* main 시작 */
 main {
   background-color: #F5F5F5;
-  height: 2486px;
+  height: 2290px;
   width: 1423px;
 }
 
-#main-top{
+#main-top {
   background-color: #1A1B1F;
   height: 40px;
   position: sticky;
   top: 50px;
 }
 
-.top-list-genre{
+.top-list-genre {
   margin: 0 10px;
   text-decoration: none;
   color: lightgray;
 }
 
 /* middle-discount */
-#main-discount{
+#main-discount {
   height: 445px;
 }
 
-#discount-dropdown{
+#discount-dropdown {
   display: flex;
 }
 
-#discount-dropdown:hover .discount-swipe-left{
+#discount-dropdown:hover .discount-swipe-left,
+#discount-dropdown:hover .discount-swipe-right {
   display: block;
 }
 
-#discount-dropdown:hover .discount-swipe-right{
-  display: block;
-}
 
-.discount-three{
+.discount-three {
   height: 445px;
-  width:33.33%;
+  width: 33.33%;
   position: relative;
   z-index: 1;
 }
 
-.discount-img{
+.discount-img {
   height: 445px;
   width: 100%;
 }
 
-.discount-swipe-left{
+.discount-swipe-left {
   background-color: white;
   height: 40px;
   width: 40px;
@@ -207,10 +206,10 @@ main {
   display: none;
   text-align: center;
   line-height: 40px;
-  border-radius:50%
+  border-radius: 50%
 }
 
-.discount-swipe-right{
+.discount-swipe-right {
   background-color: white;
   height: 40px;
   width: 40px;
@@ -220,22 +219,22 @@ main {
   display: none;
   text-align: center;
   line-height: 40px;
-  border-radius:50%
+  border-radius: 50%
 }
 
 /* main-content */
-#main-content{
+#main-content {
   height: 130px;
 }
 
-#main-content div nav{
+#main-content div nav {
   padding: 15px 30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap
 }
 
-.content-list{
+.content-list {
   border: 1px solid rgb(190, 189, 189);
   background-color: white;
   margin: 3px;
@@ -245,13 +244,13 @@ main {
   border-radius: 5px;
 }
 
-.main-content-list{
+.main-content-list {
   text-decoration: none;
   line-height: 35px;
   color: black;
 }
 
-.main-content-list img{
+.main-content-list img {
   height: 25px;
   width: 25px;
   position: relative;
@@ -259,72 +258,139 @@ main {
 }
 
 /* minimal-brand */
-#minimal-brand{
-  border: 1px solid gray;
-  height: 480px;
+#minimal-brand {
+  height: 440px;
 }
 
-.main-items{
-  border: 1px solid gray;
+.main-items {
   height: 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.main-items-genre{
+.main-items-genre {
   font-size: large;
   line-height: 40px;
   margin: 0 10px;
 }
 
-.main-items-more{
+.main-items-more {
   font-size: small;
   line-height: 40px;
   margin: 10px;
 }
 
-.item-recommend-frame{
-  border: 1px solid gray;
+.more-color:visited,
+.more-color:link {
+  color: gray;
+}
+
+.item-recommend-frame {
   height: 410px;
-  padding: 0px 00px 0px 20px;
+  padding: 0px 10px 0px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.item-recommend-img{
-  border: 1px solid gray;
-  height: 410px;
+.image-link {
+  height:362px;
+  text-decoration: none;
+}
+
+.item-recommend-img {
+  position: relative;
+  height: 362px;
   width: 223px;
 }
 
-.item-recommend-top{
-  border: 1px solid gray;
-  height: 350px;
+.item-recommend-top {
+  height: 300px;
+  z-index: 5;
 }
 
-.item-recommend-name{
-  border: 1px solid gray;
-  height: 60px;
+.item-image {
+  height: 304px;
+  width: 223px;
+}
+
+.item-recommend-name {
+  background-color: white;
+  height: 77px;
+}
+
+.item-recommend-name h6 {
+  margin: 5px;
+}
+
+.image-link:visited,
+.image-link:link {
+  color: black;
+}
+
+.discount {
+  color: red;
 }
 
 /* new-brand-item */
-#new-brand-item{
-  border: 1px solid gray;
-  height: 900px;
+#new-brand-item {
+  height: 800px;
 }
 
-.item-recommend-frame-line2{
-  border: 1px solid gray;
-  height: 820px;
+.item-recommend-frame-line2 {
+  height: 724px;
   padding: 0px 10px 0px;
   display: flex;
   flex-wrap: wrap;
 }
 
 /* live-broadcasting */
-#live-broadcasting{
-  border: 1px solid gray;
+#live-broadcasting {
   height: 480px;
+}
+
+.item-recommend-frame-live {
+  height: 380px;
+  padding: 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-link-live {
+  height: 360px;
+  text-decoration: none;
+  color: black;
+}
+
+.item-recommend-img-live {
+  position: relative;
+  height: 360px;
+  width: 223px;
+}
+
+.item-recommend-name-live {
+  background-color: white;
+  height: 60px;
+  padding: 5px;
+}
+
+.item-recommend-top {
+  height: 280px;
+  z-index: 5;
+}
+
+.d-day{
+  position: absolute;
+  top: 280px;
+  left: 10px;
+  background-color: rgb(78, 78, 78);
+  height: 15px;
+  width: 25px;
+  border-radius: 3px;
+  z-index: 10;
+  text-align: center;
+  line-height: 15px;
+  font-size: small;
+  color: white;
 }
 
 /* footer 시작 */
@@ -334,51 +400,85 @@ footer {
 }
 
 /* footer-link */
-#footer-link{
+#footer-link {
   border: 1px solid gray;
   height: 100px;
   width: 1423px;
 }
 
-#footer-link-list{
+#footer-link-list {
   border: 1px solid gray;
   margin: 20px;
   height: 50px;
 }
 
 /* footer-info */
-#footer-info{
+#footer-info {
   border: 1px solid gray;
   height: 200px;
 }
 
-#footer-info-list{
+#footer-info-list {
   border: 1px solid gray;
   margin: 20px;
   height: 160px;
 }
 
 /* all-rights-reversed */
-#all-rights-reversed{
+#all-rights-reversed {
   border: 1px solid gray;
   height: 120px;
 }
 
-#all-rights-reversed-info{
+#all-rights-reversed-info {
   border: 1px solid gray;
   margin: 20px;
   height: 80px;
 }
 
 /* sns-logo */
-#sns-logo{
+#sns-logo {
   margin: 10px;
   border: 1px solid gray;
   height: 70px;
 }
 
-#sns-logo-img{
+#sns-logo-img {
   border: 1px solid gray;
   height: 40px;
   margin: 20px;
+}
+
+
+
+.heart {
+  position: absolute;
+  top: 275px;
+  left: 200px;
+  width: 10px;
+  height: 10px;
+  background-color: lightslategray;
+  transform: rotate(-45deg);
+  margin: 5px;
+  z-index: 10;
+}
+
+.heart::before,
+.heart::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: lightslategray;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -5px;
+  left: 0;
+}
+
+.heart::after {
+  top: 0;
+  right: -5px;
 }

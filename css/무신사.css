@@ -3,9 +3,7 @@
   padding: 0;
 }
 
-p{
-  index: 1;
-}
+
 html, body{
   height: 100vh;
   margin: 0;
@@ -31,6 +29,7 @@ header {
   height: 50px;
   width: 1423px;
   position:fixed;
+  z-index: 1000;
 }
 
 #header-top nav {
@@ -135,6 +134,7 @@ header {
   height: 40px;
   position: sticky;
   top: 50px;
+  z-index: 1000;
 }
 
 
@@ -169,25 +169,77 @@ main {
 
 /* middle-discount */
 #main-discount{
-  border: 1px solid gray;
   height: 445px;
+}
+
+#discount-dropdown{
   display: flex;
 }
 
-.discount-three{
-  border: 1px solid gray;
-  width:33.33%;
+#discount-dropdown:hover .discount-swipe-left{
+  display: block;
 }
 
-.discount-three img{
+#discount-dropdown:hover .discount-swipe-right{
+  display: block;
+}
+
+.discount-three{
+  height: 445px;
+  width:33.33%;
+  position: relative;
+  z-index: 1;
+}
+
+.discount-img{
   height: 445px;
   width: 100%;
 }
 
-/* middle-content */
+.discount-swipe-left{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  display: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius:50%
+}
+
+.discount-swipe-right{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 210px;
+  left: 420px;
+  display: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius:50%
+}
+
+/* main-content */
 #main-content{
   border: 1px solid gray;
   height: 100px;
+}
+
+.content-list{
+  height: 50px;
+}
+
+.main-content-list{
+  border: 1px solid black;
+  height: 50px;
+}
+
+.main-content-list img{
+  height: 30px;
+  width: 30px;
 }
 
 /* minimal-brand */
@@ -270,7 +322,6 @@ footer {
   border: 1px solid gray;
   height: 100px;
   width: 1423px;
-  
 }
 
 #footer-link-list{

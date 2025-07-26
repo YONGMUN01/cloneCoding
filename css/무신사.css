@@ -1,59 +1,201 @@
-*{
-  margin : 0;
-  padding : 0;
+. {
+  margin: 0;
+  padding: 0;
 }
 
-nav{
-  background-color : #1A1B1F;
-  display : flex;
-  justify-content : space-between;
+html, body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.header-left{
-  background-color : #1A1B1F;
-  height : 50px;
-  color : white;
+header,
+main,
+footer {
+  border: 1px solid gray;
+  margin: 0px auto;
+} 
+
+/* header 시작 */
+header {
+  height: 200px;
+  width: 1423px;
 }
 
-.header-left ul{
-  display : flex;
+#header-top {
+  border: 1px solid gray;
+  height: 30px;
+  width: 1423px;
+  position:fixed;
 }
 
-.header-menubar{
-  background-color : beige;
-  margin : 10px;
-  height : 30px;
-  width : 30px;
+#header-top nav {
+  height: 30px;
+  width: 1423px;
+  display: flex;
 }
 
-.header-menubar img{
-  height : 30px;
-  width : 30px;
+#menu {
+  border: 1px solid gray;
+  height: 30px;
+  width: 30px;
 }
 
-.header-li{
-  list-style-type : none;
+#menu a img{
+  height:30px;
+  width:30px;
 }
 
-.header-li-div{
-  margin : 10px;
-  height : 30px;
-  text-align : center;
-  line-height : 30px;
+#header-top-nav{
+  height:30px;
+  flex:1;
+  display:flex;
+  justify-content:space-between;
 }
 
-.header-a1{
-  text-decoration : none;
-  margin : 5px;
-  color : white;
+#header-top-left {
+  border: 1px solid gray;
+  height: 30px;
+  width: 100px;
 }
 
-.header-a2{
-  text-decoration : none;
-  margin : 5px;
-  color : white;
-  font-size : 13px;
+#header-top-right{
+  border: 1px solid gray;
+  height: 30px;
+  width: 100px;
+}
+
+/* header-middle 시작 */
+#header-middle{
+  border: 1px solid gray;
+  margin: 30px 0px 0px;
+  height: 120px;
+  width: 1423px;
+}
+
+#middle-top{
+  border: 1px solid gray;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#middle-ring a img{
+  height: 30px;
+  width: 30px;
+}
+
+#middle-input{
+  border: 1px solid gray;
+  height: 46px;
+  padding: 10px;
+}
+
+#middle-input form label input{
+  width: 1370px;
+  height: 30px;
 }
 
 
 
+/* header 종료 */
+
+/* main 시작 */
+main {
+  height: 2416px;
+  width: 1423px;
+}
+
+/* middle-discount */
+#main-discount{
+  border: 1px solid gray;
+  height: 445px;
+  display: flex;
+}
+
+.discount-three{
+  border: 1px solid gray;
+  width:33.33%;
+}
+
+/* middle-content */
+#main-content{
+  border: 1px solid gray;
+  height: 100px;
+}
+
+/* minimal-brand */
+#minimal-brand{
+  border: 1px solid gray;
+  height: 480px;
+}
+
+.main-items{
+  border: 1px solid gray;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-items-genre{
+  font-size: large;
+  line-height: 40px;
+  margin: 0 10px;
+}
+
+.main-items-more{
+  font-size: small;
+  line-height: 40px;
+  margin: 10px;
+}
+
+.item-recommend-frame{
+  border: 1px solid gray;
+  height: 410px;
+  padding: 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-recommend-img{
+  border: 1px solid gray;
+  height: 410px;
+  width: 228px;
+}
+
+.item-recommend-top{
+  border: 1px solid gray;
+  height: 350px;
+}
+
+.item-recommend-name{
+  border: 1px solid gray;
+  height: 60px;
+}
+
+/* new-brand-item */
+#new-brand-item{
+  border: 1px solid gray;
+  height: 900px;
+}
+
+.item-recommend-frame-line2{
+  border: 1px solid gray;
+  height: 820px;
+  padding: 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* live-broadcasting */
+#live-broadcasting{
+  border: 1px solid gray;
+  height: 480px;
+}
+
+/* footer 시작 */
+footer {
+  height: 300px;
+  width: 1423px;
+}

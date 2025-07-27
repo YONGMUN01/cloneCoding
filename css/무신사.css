@@ -14,14 +14,13 @@ body {
 header,
 main,
 footer {
-  border: 1px solid gray;
   margin: 0px auto;
 }
 
 /* header 시작 */
 header {
   background-color: #1A1B1F;
-  height: 180px;
+  height: 110px;
   width: 1423px;
 }
 
@@ -30,7 +29,9 @@ header {
   height: 50px;
   width: 1423px;
   position: fixed;
+  top: 0px;
   z-index: 1000;
+
 }
 
 #header-top nav {
@@ -167,6 +168,15 @@ main {
   margin: 0 10px;
   text-decoration: none;
   color: lightgray;
+}
+
+#under-line{
+  position: absolute;
+  background-color: white;
+  width: 32px;
+  height: 2px;
+  top: 38px;
+  left: 76px;
 }
 
 /* middle-discount */
@@ -346,6 +356,7 @@ main {
 /* live-broadcasting */
 #live-broadcasting {
   height: 480px;
+  background-color: #F5F5F5;
 }
 
 .item-recommend-frame-live {
@@ -395,58 +406,109 @@ main {
 
 /* footer 시작 */
 footer {
-  height: 600px;
+  background-color: #F0F0F0;
   width: 1423px;
 }
 
 /* footer-link */
-#footer-link {
-  border: 1px solid gray;
-  height: 100px;
+#footer-category {
+  height: 40px;
   width: 1423px;
 }
 
-#footer-link-list {
-  border: 1px solid gray;
-  margin: 20px;
+#footer-category-link {
+  margin: 5px 20px;
   height: 50px;
+  display: flex;
+}
+
+.footer-category-link-list{
+  border: 1px solid #E6E6E6;
+  background-color: #E6E6E6;
+  margin: 5px;
+  padding: 1px 5px;
+  height: 20px;
+  width: fit-content;
+  font-size: small;
+  line-height: 20px;
+  text-decoration: none;
+  color: #7a7a7a;
 }
 
 /* footer-info */
-#footer-info {
-  border: 1px solid gray;
-  height: 200px;
+#footer-info-list ul{
+  list-style-type: none;
+  position: relative;
+  left: -20px;
 }
 
-#footer-info-list {
-  border: 1px solid gray;
-  margin: 20px;
-  height: 160px;
+.footer-info-li{
+  margin: 10px 0;
+}
+
+.footer-info-li-button{
+  width: 1380px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info-li-button b{
+  font-size: 12px;
+  color: #7a7a7a;
+}
+
+.button-reverse{
+  position: absolute;
+  left: 1404px;
+  display:none;
+}
+
+
+.footer-info-li-div{
+  display: none;
+  font-size: smaller;
+}
+
+.footer-info-li-div p, .footer-info-li-div p a{
+  color: #7a7a7a;
+}
+
+.li-div-li a{
+  text-decoration: none;
+  color: #7a7a7a;
+  position: relative;
+  left: -20px;
+}
+
+.footer-info-li:hover .footer-info-li-div, 
+.footer-info-li:hover .button-reverse{
+  display: block;
 }
 
 /* all-rights-reversed */
-#all-rights-reversed {
-  border: 1px solid gray;
-  height: 120px;
+#all-rights-reversed-info {
+  margin: 20px;
+  color: #7a7a7a;
 }
 
-#all-rights-reversed-info {
-  border: 1px solid gray;
-  margin: 20px;
-  height: 80px;
+.reversed-h{
+  margin: 4px 0;
+}
+
+.reversed-h a{
+  color: #7a7a7a;
 }
 
 /* sns-logo */
 #sns-logo {
   margin: 10px;
-  border: 1px solid gray;
-  height: 70px;
+  height: 80px
 }
 
-#sns-logo-img {
-  border: 1px solid gray;
-  height: 40px;
-  margin: 20px;
+
+#sns-logo-img a{
+  text-decoration: none;
+  margin: 0 5px;
 }
 
 
@@ -481,4 +543,31 @@ footer {
 .heart::after {
   top: 0;
   right: -5px;
+}
+
+#top{
+  background-color:white;
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  top: 780px;
+  left: 1520px;
+  border-radius: 50%;
+  transition-timing-function: ease;
+}
+
+#top button{
+  border: 0 solid white;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#top-image{
+  height:30px;
+  width:30px;
+  border-radius: 50%;
+}
+
+hr{
+  width: 1380px;
 }

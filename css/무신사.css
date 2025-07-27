@@ -723,30 +723,118 @@ footer {
   background-color: red;
 }
 
+hr{
+  width: 1380px;
+}
+
 #top{
-  background-color:white;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   position: fixed;
   top: 850px;
   left: 1600px;
   border-radius: 50%;
-  transition-timing-function: ease;
   z-index: 20;
 }
 
-#top button{
+#top-button{
   border: 0 solid white;
   background-color: white;
   border-radius: 50%;
+  
 }
 
 #top-image{
-  height:30px;
-  width:30px;
+  height:40px;
+  width:40px;
   border-radius: 50%;
 }
 
-hr{
-  width: 1380px;
+#top-gender{
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  top: 850px;
+  left: 1600px;
+  border-radius: 50%;
+  display: none;
+}
+
+#top-gender-button{
+  border: 0 solid black;
+  background-color: black;
+  border-radius: 50%;
+  
+}
+
+#top-gender-image{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+}
+
+#top-recent{
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  top: 800px;
+  left: 1600px;
+  border-radius: 50%;
+  display: none;
+}
+
+#top-recent-button{
+  border: 0 solid white;
+  background-color: white;
+  border-radius: 50%;
+  
+}
+
+#top-recent-image{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+}
+
+#top-move{
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  top: 750px;
+  left: 1600px;
+  border-radius: 50%;
+  display: none;
+}
+
+#top-move-button{
+  border: 0 solid white;
+  background-color: white;
+  border-radius: 50%;
+  
+}
+
+#top-move-image{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+}
+
+#top:hover #top-gender
+, #top:hover #top-recent
+, #top:hover #top-move{
+  display: block;
+  z-index: 30;
+}
+
+#top-menu{
+  height: 150px;
+  width: 50px;
+  position: relative;
+  top: -150px;
+  display: none;
+}
+
+#top:hover #top-menu{
+  display: block;
+  z-index: 30;
 }

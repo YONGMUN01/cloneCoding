@@ -717,6 +717,12 @@ footer {
   right: -5px;
 }
 
+.heart:hover
+, .heart:hover::before
+, .heart:hover::after{
+  background-color: red;
+}
+
 #top{
   background-color:white;
   height: 30px;

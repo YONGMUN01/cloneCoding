@@ -104,10 +104,10 @@ header {
   position: absolute;
   top: 0px;
   left: 0px;
-
+  z-index: 10001;
 }
 
-#search-input{
+.search-input{
   border: 0;
   position: relative;
   top: 10px;
@@ -117,7 +117,17 @@ header {
   font-size: 15px;
 }
 
-#search-button{
+.search-input-middle{
+  border: 0;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.search-button{
   border: 0px;
   background-color: white;
   height: 35px;
@@ -127,7 +137,7 @@ header {
   left: 1324px;
 }
 
-#search-exit{
+.search-exit{
   border: 0;
   height: 40px;
   width: 40px;
@@ -136,26 +146,72 @@ header {
   font-size: 25px;
 }
 
-#famous{
-  border: 1px solid gray;
+.famous{
   margin: 20px 0;
-  height: 300px;
-  width: 400px;
+  height: 200px;
+  width: 700px;
   padding: 10px;
   color: black;
   font-size: 20px;
   text-align: left;
 }
 
-.ii{
-  text-align: left;
+.famous ol{
+  display: flex;
 }
 
 .famous-search{
-  margin: 3px;
+  margin: 7px 0;
+  width: 250px;
   text-align: left;
   display: flex;
   justify-content: space-between;
+  font-size: 16px;
+}
+
+
+.famous-search img{
+  height: 15px;
+  width: 15px;
+}
+
+.famous-left{
+  transform: translate(-20px, -10px);
+}
+
+.famous-right{
+  transform: translate(20px, -11px);
+}
+
+.rise{
+  margin: 20px 0;
+  height: 200px;
+  width: 700px;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+}
+
+.rise ol{
+  display: flex;
+}
+
+.rise-search{
+  margin: 7px 0;
+  width: 250px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.rise-left{
+  transform: translate(-20px, -10px);
+}
+
+.rise-right{
+  transform: translate(20px, -11px);
 }
 
 /* header-middle 시작 */
@@ -192,9 +248,13 @@ header {
   padding: 10px;
 }
 
-#middle-input form label input {
+#middle-input-search {
   width: 1370px;
   height: 30px;
+}
+
+#middle-input:hover .search{
+  display: block;
 }
 
 #main-top {
@@ -731,8 +791,8 @@ hr{
   height: 40px;
   width: 40px;
   position: fixed;
-  top: 850px;
-  left: 1600px;
+  top: 670px;
+  left: 1340px;
   border-radius: 50%;
   z-index: 20;
 }
@@ -754,8 +814,8 @@ hr{
   height: 40px;
   width: 40px;
   position: fixed;
-  top: 850px;
-  left: 1600px;
+  top: 670px;
+  left: 1340px;
   border-radius: 50%;
   display: none;
 }
@@ -777,8 +837,8 @@ hr{
   height: 40px;
   width: 40px;
   position: fixed;
-  top: 800px;
-  left: 1600px;
+  top: 620px;
+  left: 1340px;
   border-radius: 50%;
   display: none;
 }
@@ -800,8 +860,8 @@ hr{
   height: 40px;
   width: 40px;
   position: fixed;
-  top: 750px;
-  left: 1600px;
+  top: 570px;
+  left: 1340px;
   border-radius: 50%;
   display: none;
 }
@@ -819,11 +879,11 @@ hr{
   border-radius: 50%;
 }
 
-#top:hover #top-gender
-, #top:hover #top-recent
-, #top:hover #top-move{
+#top-menu:hover #top-gender
+, #top-menu:hover #top-recent
+, #top-menu:hover #top-move{
   display: block;
-  z-index: 30;
+  z-index: 40;
 }
 
 #top-menu{

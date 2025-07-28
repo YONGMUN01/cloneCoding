@@ -21,7 +21,7 @@
             </li>
             <li class="menubar">
               <div class="menubar-div"></div>
-              <a href="" class="menubar-left-list">|</a>
+              <a class="menubar-left-list">|</a>
               <a href="./무신사.html" class="menubar-left-list">MUSINSA</a>
               <a href="https://www.musinsa.com/main/beauty/recommend?gf=A" class="menubar-left-list">BEAUTY</a>
               <a href="http://musinsa.com/main/player/recommend?gf=A" class="menubar-left-list">PLAYER</a>
@@ -29,7 +29,7 @@
               <a href="https://www.musinsa.com/main/boutique/recommend?gf=A" class="menubar-left-list">BOUTIQUE</a>
               <a href="https://www.musinsa.com/main/sneaker/recommend?gf=A" class="menubar-left-list">SHOES</a>
               <a href="https://www.musinsa.com/main/kids/recommend?gf=A" class="menubar-left-list">KIDS</a>
-              <a href="" class="menubar-left-list">|</a>
+              <a class="menubar-left-list">|</a>
               <a href="https://www.musinsa.com/snap/main/recommend" class="menubar-left-list">(S)SNAP</a>
             </li>
           </ul>
@@ -42,35 +42,103 @@
               <a href="" class="menubar-right-list">
                 검색
                 <div class="search">
-                  <section id="search-top">
-                    <input type="search" size="165" placeholder="검색어를 입력하세요" id="search-input">
-                    <button id="search-button">
+                  <section class="search-top">
+                    <input type="search" size="175" placeholder="검색어를 입력하세요" class="search-input">
+                    <button class="search-button">
                       <img src="./../img/search.jpg" alt="돋보기 이미지">
                     </button>
-                    <button id="search-exit">
+                    <button class="search-exit">
                       X
                     </button>
                   </section>
-                  <div id="famous">
+                  <div class="famous">
                     <p>인기 검색어</p>
-                    <input type="date">
                     <ol>
-                      <div class="famous-search">
-                        <li>반팔</li>
-                        <img src="" alt="-">
+                      <div class="famous-left">
+                        <div class="famous-search">
+                          <li>반팔</li>
+                          <img src="./../img/flat.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>버뮤다 팬츠</li>
+                          <img src="./../img/flat.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>반바지</li>
+                          <img src="./../img/flat.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>아디다스</li>
+                          <img src="./../img/up.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>무신사 스탠다드</li>
+                          <img src="./../img/up.jpg" alt="-">
+                        </div>
                       </div>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
-                      <li class="famous-search"></li>
+                      <div class="famous-right">
+                        <div class="famous-search">
+                          <li>나시</li>
+                          <img src="./../img/up.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>양산</li>
+                          <img src="./../img/up.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>모자</li>
+                          <img src="./../img/down.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>크록스</li>
+                          <img src="./../img/flat.jpg" alt="-">
+                        </div>
+                        <div class="famous-search">
+                          <li>양말</li>
+                          <img src="./../img/flat.jpg" alt="-">
+                        </div>
+                      </div>
                     </ol>
                   </div>
-
+                  <div class="rise">
+                    <p>급상승 검색어</p>
+                    <ol>
+                      <div class="rise-left">
+                        <div class="rise-search">
+                          <li>한화 이글스</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>래시가드</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>남자 벨트</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>자라</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>머슬핏 반팔</li>
+                        </div>
+                      </div>
+                      <div class="rise-right">
+                        <div class="rise-search">
+                          <li>자켓</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>코난</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>슬링백</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>리바이스</li>
+                        </div>
+                        <div class="rise-search">
+                          <li>나이키 에어포스</li>
+                        </div>
+                      </div>
+                    </ol>
+                  </div>
                 </div>
               </a>
               <a href="https://www.musinsa.com/like/goods" class="menubar-right-list">좋아요</a>
@@ -93,10 +161,108 @@
         </div>
       </div>
       <div id="middle-input">
-        <form action="" method="">
-          <label><input type="text" id=""></label>
-        </form>
-      </div>
+        <div id="middle-input-tab">
+          <input type="text" readonly placeholder="무신사 레플 커세어 K70 MAX" id="middle-input-search">
+        </div>
+        <div class="search">
+          <section class="search-top">
+            <input type="search" size="175" placeholder="검색어를 입력하세요" class="search-input-middle">
+            <button class="search-button">
+              <img src="./../img/search.jpg" alt="돋보기 이미지">
+            </button>
+            <button class="search-exit">
+              X
+            </button>
+          </section>
+          <div class="famous">
+            <p>인기 검색어</p>
+            <ol>
+              <div class="famous-left">
+                <div class="famous-search">
+                  <li>반팔</li>
+                  <img src="./../img/flat.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>버뮤타 팬츠</li>
+                  <img src="./../img/flat.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>반바지</li>
+                  <img src="./../img/flat.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>아디다스</li>
+                  <img src="./../img/up.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>무신사 스탠다드</li>
+                  <img src="./../img/up.jpg" alt="-">
+                </div>
+              </div>
+              <div class="famous-right">
+                <div class="famous-search">
+                  <li>나시</li>
+                  <img src="./../img/up.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>양산</li>
+                  <img src="./../img/up.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>모자</li>
+                  <img src="./../img/down.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>크록스</li>
+                  <img src="./../img/flat.jpg" alt="-">
+                </div>
+                <div class="famous-search">
+                  <li>양말</li>
+                  <img src="./../img/flat.jpg" alt="-">
+                </div>
+              </div>
+            </ol>
+          </div>
+          <div class="rise">
+            <p>급상승 검색어</p>
+            <ol>
+              <div class="rise-left">
+                <div class="rise-search">
+                  <li>한화 이글스</li>
+                </div>
+                <div class="rise-search">
+                  <li>래시가드</li>
+                </div>
+                <div class="rise-search">
+                  <li>남자 벨트</li>
+                </div>
+                <div class="rise-search">
+                  <li>자라</li>
+                </div>
+                <div class="rise-search">
+                  <li>머슬핏 반팔</li>
+                </div>
+              </div>
+              <div class="rise-right">
+                <div class="rise-search">
+                  <li>자켓</li>
+                </div>
+                <div class="rise-search">
+                  <li>코난</li>
+                </div>
+                <div class="rise-search">
+                  <li>슬링백</li>
+                </div>
+                <div class="rise-search">
+                  <li>리바이스</li>
+                </div>
+                <div class="rise-search">
+                  <li>나이키 에어포스</li>
+                </div>
+              </div>
+            </ol>
+          </div>
+        </div>
     </section>
   </header>
 
@@ -777,12 +943,12 @@
   </footer>
 
   <div id="top">
-    <button id="top-button" style="cursor:pointer;" onclick="window.scrollTo(0,0);">
+    <button id="top-button" onclick="window.scrollTo(0,0);">
       <img src="./../img/top.jpg" alt="" id="top-image">
     </button>
     <div id="top-menu">
       <div id="top-move">
-        <button id="top-move-button" style="cursor:pointer;" onclick="window.scrollTo(0,0);">
+        <button id="top-move-button" onclick="window.scrollTo(0,0);">
           <img src="./../img/top.jpg" alt="" id="top-move-image">
         </button>
       </div>

@@ -95,6 +95,10 @@ header {
   margin: 0 5px;
 }
 
+#menu-hr{
+  width: 578px;
+}
+
 #menu-middle {
   background-color: #F5F5F5;
   height: 40px;
@@ -388,6 +392,14 @@ header {
 #middle-input {
   height: 35px;
   padding: 10px;
+}
+
+#middle-search{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  top: -33px;
+  left: 1336px;
 }
 
 #middle-input-search {

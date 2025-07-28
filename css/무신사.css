@@ -284,6 +284,7 @@ header {
   width: 40px;
   position: relative;
   top: 12px;
+  left: 10px;
   font-size: 25px;
 }
 
@@ -458,29 +459,30 @@ main {
 #discount-dropdown:hover .discount-swipe-left,
 #discount-dropdown:hover .discount-swipe-right {
   display: block;
+  z-index: 3;
 }
 
 .discount-three {
   height: 445px;
-  width: 33.33%;
+  width: 1423px;
   position: relative;
-  z-index: 1;
+  display: flex;
 }
 
 .discount-img {
+  margin: 0;
+  position: relative;
   height: 445px;
-  width: 100%;
+  width: 474.4px;
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
+  z-index: 1;
 }
 
 .discount-img:hover{
   transform: scale(1.1, 1.1);
-  z-index: 200;
-}
-
-.discount-img:not(:hover){
-  z-index: 1;
+  z-index: 2;
+  border-radius: 10px;
 }
 
 .discount-swipe-left {
@@ -493,7 +495,7 @@ main {
   display: none;
   text-align: center;
   line-height: 40px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .discount-swipe-right {
@@ -502,11 +504,11 @@ main {
   width: 40px;
   position: absolute;
   top: 210px;
-  left: 420px;
+  left: 1360px;
   display: none;
   text-align: center;
   line-height: 40px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 /* main-content */
